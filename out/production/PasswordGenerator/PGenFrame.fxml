@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="217.0" prefWidth="305.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Button fx:id="btnExit" layoutX="237.0" layoutY="163.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="48.0" text="Exit" />
+      <Button fx:id="btnGen" layoutX="167.0" layoutY="163.0" mnemonicParsing="false" text="Generate" />
+      <Slider fx:id="sliderLength" layoutX="17.0" layoutY="132.0" max="16.0" prefHeight="13.0" prefWidth="273.0" value="6.0" />
+      <CheckBox fx:id="checkDigit" layoutX="16.0" layoutY="18.0" mnemonicParsing="false" text="Use digit" selected="true" />
+      <CheckBox fx:id="checkUpper" layoutX="133.0" layoutY="49.0" mnemonicParsing="false" text="Use upper case" selected="true" />
+      <CheckBox fx:id="checkRus" layoutX="16.0" layoutY="80.0" mnemonicParsing="false" text="Use rus literals" />
+      <TextField fx:id="textPassword" alignment="CENTER" editable="false" layoutX="17.0" layoutY="161.0" prefHeight="26.0" prefWidth="137.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label fx:id="labelLength" layoutX="16.0" layoutY="108.0" prefHeight="15.0" prefWidth="273.0" text="Password length" />
+      <Label layoutX="16.0" layoutY="194.0" prefHeight="15.0" prefWidth="127.0" text="Designed bu John Pank" />
+      <CheckBox fx:id="checkEn" layoutX="16.0" layoutY="49.0" mnemonicParsing="false" text="Use en literals" selected="true" />
+      <CheckBox fx:id="checkSpec" layoutX="133.0" layoutY="18.0" mnemonicParsing="false" text="Use simbols" />
+   </children>
+</Pane>
